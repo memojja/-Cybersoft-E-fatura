@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>FAtura</title>
+</head>
+<body>
+
+<td th:object="${fatura}" th:text="${fatura.saticiUnvan}"></td>
+<td th:object="${fatura}" th:text="${fatura.aliciUnvan}"></td>
+<td th:object="${fatura}" th:text="${fatura.tarih}"></td>
+<td th:object="${fatura}" th:text="${fatura.tutar}"></td>
+
+
+</body>
+</html>
